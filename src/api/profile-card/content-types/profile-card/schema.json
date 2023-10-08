@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profile_cards",
+  "info": {
+    "singularName": "profile-card",
+    "pluralName": "profile-cards",
+    "displayName": "profile-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

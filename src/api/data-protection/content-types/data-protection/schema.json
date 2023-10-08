@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "data_protections",
+  "info": {
+    "singularName": "data-protection",
+    "pluralName": "data-protections",
+    "displayName": "data-protection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "html": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

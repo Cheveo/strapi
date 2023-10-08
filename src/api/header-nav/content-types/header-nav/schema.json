@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_navs",
+  "info": {
+    "singularName": "header-nav",
+    "pluralName": "header-navs",
+    "displayName": "header-nav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "links": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::link.link"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    }
+  }
+}

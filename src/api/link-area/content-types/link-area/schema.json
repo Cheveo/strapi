@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_areas",
+  "info": {
+    "singularName": "link-area",
+    "pluralName": "link-areas",
+    "displayName": "link-area"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "links": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::link.link"
+    }
+  }
+}
