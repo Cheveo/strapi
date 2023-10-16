@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_profile_profile_headers",
+  "info": {
+    "displayName": "profile-header"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "stackoverflow": {
+      "type": "string"
+    },
+    "web": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    }
+  }
+}
