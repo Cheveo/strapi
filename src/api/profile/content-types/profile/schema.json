@@ -22,11 +22,6 @@
       "repeatable": false,
       "component": "profile.me-section"
     },
-    "project_experience": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project"
-    },
     "education_section": {
       "type": "component",
       "repeatable": true,
@@ -34,6 +29,11 @@
     },
     "uid": {
       "type": "uid"
+    },
+    "project_experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.project-experience"
     }
   }
 }

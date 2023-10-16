@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_profile_project_experiences",
+  "info": {
+    "displayName": "project-experience"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "tasks": {
+      "type": "text"
+    },
+    "purpose": {
+      "type": "text"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology"
+    },
+    "from": {
+      "type": "date"
+    },
+    "to": {
+      "type": "date"
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}
