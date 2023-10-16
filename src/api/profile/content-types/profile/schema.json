@@ -34,6 +34,15 @@
       "type": "component",
       "repeatable": true,
       "component": "profile.project-experience"
+    },
+    "project_experience_title": {
+      "type": "string"
+    },
+    "education_section_title": {
+      "type": "string"
+    },
+    "me_section_title": {
+      "type": "string"
     }
   }
 }

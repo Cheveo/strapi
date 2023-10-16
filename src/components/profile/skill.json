@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_profile_skills",
+  "info": {
+    "displayName": "skill"
+  },
+  "options": {},
+  "attributes": {
+    "level": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::technology.technology"
+    }
+  }
+}

@@ -10,14 +10,14 @@
       "type": "text"
     },
     "programming_skills": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::skill.skill"
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.skill"
     },
     "tools": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::skill.skill"
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.skill"
     }
   }
 }
