@@ -14,9 +14,6 @@
   "attributes": {
     "language": {
       "type": "string"
-    },
-    "level": {
-      "type": "string"
     }
   }
 }

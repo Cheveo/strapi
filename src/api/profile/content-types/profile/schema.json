@@ -43,6 +43,11 @@
     },
     "me_section_title": {
       "type": "string"
+    },
+    "language_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.language"
     }
   }
 }

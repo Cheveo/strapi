@@ -1,13 +1,14 @@
 {
   "collectionName": "components_profile_languages",
   "info": {
-    "displayName": "language"
+    "displayName": "language",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "languages": {
+    "language": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::language.language"
     },
     "level": {
