@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_profile_educations",
+  "info": {
+    "displayName": "education"
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "degree_description": {
+      "type": "string"
+    },
+    "institute": {
+      "type": "string"
+    }
+  }
+}
