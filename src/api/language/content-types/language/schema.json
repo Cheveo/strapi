@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "language": {
+    "name": {
       "type": "string"
     }
   }

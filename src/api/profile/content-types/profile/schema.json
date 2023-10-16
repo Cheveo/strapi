@@ -48,6 +48,9 @@
       "type": "component",
       "repeatable": true,
       "component": "profile.language"
+    },
+    "language_section_title": {
+      "type": "string"
     }
   }
 }
