@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_sections",
+  "info": {
+    "singularName": "form-section",
+    "pluralName": "form-sections",
+    "displayName": "form-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "success_content": {
+      "type": "text"
+    },
+    "success_title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
