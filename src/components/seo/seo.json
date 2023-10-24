@@ -2,12 +2,19 @@
   "collectionName": "components_seo_seos",
   "info": {
     "displayName": "seo",
-    "icon": ""
+    "icon": "",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "content": {
+    "metadescription": {
       "type": "text"
+    },
+    "language": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
