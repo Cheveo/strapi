@@ -51,6 +51,9 @@
     },
     "language_section_title": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
