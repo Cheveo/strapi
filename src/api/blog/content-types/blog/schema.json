@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "author": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
     },
@@ -48,6 +45,11 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::profile.profile"
     }
   }
 }

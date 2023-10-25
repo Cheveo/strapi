@@ -1,14 +1,14 @@
 module.exports = ({ env }) => ({
-    'users-permissions': {
-      config: {
+  'users-permissions': {
+    config: {
       jwtSecret: env('JWT_SECRET'),
-      },
     },
-    'strapi-plugin-populate-deep': {
-      config: {
-        defaultDepth: 3, // Default is 5
-      }
-    },
+  },
+  'strapi-plugin-populate-deep': {
+    config: {
+      defaultDepth: 3, // Default is 5
+    }
+  },
   upload: {
     config: {
       provider: 'aws-s3',
@@ -33,18 +33,4 @@ module.exports = ({ env }) => ({
       },
     },
   },
-    // upload: {
-    //   config: {
-    //     provider: 'cloudinary',
-    //     providerOptions: {
-    //       cloud_name: env('CLOUDINARY_NAME'),
-    //       api_key: env('CLOUDINARY_KEY'),
-    //       api_secret: env('CLOUDINARY_SECRET'),
-    //     },
-    //     actionOptions: {
-    //       upload: {},
-    //       delete: {},
-    //     },
-    //   },
-    // },
-  });
+});
